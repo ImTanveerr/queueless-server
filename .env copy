@@ -1,0 +1,37 @@
+NODE_ENV=development
+PORT=5000
+
+# This was inserted by `prisma init`:
+# Environment variables declared in this file are NOT automatically loaded by Prisma.
+# Please add `import "dotenv/config";` to your `prisma.config.ts` file, or use the Prisma CLI with Bun
+# to load environment variables from .env files: https://pris.ly/prisma-config-env-vars.
+
+# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
+# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
+
+DATABASE_URL="postgres://11848e7c6089a24af89fe92b9fb7f81263645fa8de12fdf71b894c25312aa99e:sk_V6xFR0UrsDS8u1KEhpKF7@db.prisma.io:5432/postgres?sslmode=require"
+
+BETTER_AUTH_SECRET=aV53jXdhgjs783434gq912133Kd8hGaE66666NvUa
+BETTER_AUTH_URL=http://localhost:5000 # Base URL of your app
+
+FRONTEND_URL=http://localhost:3000
+
+ACCESS_TOKEN_SECRET=accesssecret
+REFRESH_TOKEN_SECRET=refreshsecret
+ACCESS_TOKEN_EXPIRES_IN=1d
+REFRESH_TOKEN_EXPIRES_IN=7d
+BETTER_AUTH_SESSION_TOKEN_EXPIRES_IN=1d
+BETTER_AUTH_SESSION_TOKEN_UPDATE_AGE=1d
+
+# akgg idyw rrju ekkr
+
+EMAIL_SENDER_SMTP_USER=iamtanv33r@gmail.com
+EMAIL_SENDER_SMTP_PASS=fzhi vawj dsvs hsvc
+EMAIL_SENDER_SMTP_HOST=smtp.gmail.com
+EMAIL_SENDER_SMTP_PORT=465
+EMAIL_SENDER_SMTP_FROM=info@gmail.com
+
+
+
+SUPER_ADMIN_EMAIL= superadmin@gmail.com
+SUPER_ADMIN_PASSWORD= superadmin123
